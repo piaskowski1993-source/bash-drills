@@ -15,14 +15,15 @@
 | 11 | if/test/exit codes — pre-deploy checklist | `FLAG{preflight_passed}` |
 | 12 | df -h vs du — shared volumes over quota | `FLAG{volumes_under_quota}` |
 | 13 | cd/../~/mv navigation drill — warehouse maze | `FLAG{warehouse_navigated}` |
+| 14 | free -h, ps %MEM — runaway cache pre-warmer | `FLAG{memory_freed}` |
 
-**13 / 13 solved.**
+**14 / 14 solved.**
 
 ## Up next
 
 Two tracks, interleaved rather than run back-to-back:
 - **Scripting track:** `for` loops, `while` loops, `xargs`, functions (started day11 with `if`/test).
-- **Hardware/everyday track:** `free -h` (memory), `lsblk`/`mount`/`/etc/fstab` (drives), `lscpu`/`dmesg`/`lsusb`/`lspci` (started day10 with `du`, day12 with `df`).
+- **Hardware/everyday track:** `lsblk`/`mount`/`/etc/fstab` (drives), `lscpu`/`dmesg`/`lsusb`/`lspci` (started day10 with `du`, day12 with `df`, day14 with `free`).
 
 ## Unlockable rewards
 
