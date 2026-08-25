@@ -35,10 +35,11 @@ anytime by re-running `setup.sh`.
 | 13 | cd/../~/mv navigation drill — warehouse maze | `FLAG{warehouse_navigated}` |
 | 14 | free -h, ps %MEM — runaway cache pre-warmer | `FLAG{memory_freed}` |
 | 15 | for loops — batch-sorting reports by header | `FLAG{reports_batch_sorted}` |
+| 16 | for loops + counters — sensor log triage | `FLAG{sensor_logs_triaged}` |
 
-**15 / 15 solved.**
+**16 / 16 solved.**
 
 ## Up next
 
-- **Scripting track:** `for` loops (day15, day16), `while` loops, `xargs`, functions (started day11 with `if`/test).
+- **Scripting track:** `for` loops (day15, day16 ✓), `while` loops, `xargs`, functions (started day11 with `if`/test).
 - **Hardware/everyday track:** `lsblk`/`mount`/`/etc/fstab` (drives), `lscpu`/`dmesg`/`lsusb`/`lspci` (started day10 with `du`, day12 with `df`, day14 with `free`).
